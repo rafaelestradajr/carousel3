@@ -1,8 +1,8 @@
 import { CarouselProvider, Image, Slide, Slider } from "pure-react-carousel";
 import React from "react";
 import { Divider } from "semantic-ui-react";
-
 import CustomDotGroup from "../components/CustomDotGroup";
+
 
 const ImageCarousel = () => (
   <CarouselProvider infiniteLoop useKeyboardArrows autoplay
